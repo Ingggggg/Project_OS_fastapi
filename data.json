@@ -1,0 +1,92 @@
+[
+    {   
+        "rest_id": "1",
+        "Name" : "น้าไก่ไข่นุ่ม",
+        "Location" : "ซอยเกกี 1",
+        "Type_of_food" : "อาหารญี่ปุ่น",
+        "Recommend_menu" : "ข้าวหมูทอดไข่นุ่ม , ข้าวห่อสาหร่าย",
+        "Opening-Closing_time" : "17:00 – 22:00",
+        "Contact_number"  : "087 673 3844"
+    },
+    {   
+        "rest_id": "2",
+        "Name" : "chefcommady",
+        "Location" : "ซอยเกกี 2",
+        "Type_of_food" : "อาหารจานเดียว",
+        "Recommend_menu" : "เบอร์เกอร์, แกงกะหรี่, สปาเก็ตตี้",
+        "Opening-Closing_time" : "8:30 – 24:00",
+        "Contact_number"  : "090 699 4636"
+    },
+    {   
+        "rest_id": "3",
+        "Name" : "กะเพราบิลเลี่ยน",
+        "Location" : "Billion Park",
+        "Type_of_food" : "อาหารไทย",
+        "Recommend_menu" : "กะเพรา",
+        "Opening-Closing_time" : "16:30 – 4:00",
+        "Contact_number"  : "082 998 9405"
+    },
+    {   
+        "rest_id": "4",
+        "Name" : "ข้าวมันไก่ป้าน้อย",
+        "Location" : "Billion Park",
+        "Type_of_food" : "อาหารตามสั่ง",
+        "Recommend_menu" : "ข้าวหมกไก่",
+        "Opening-Closing_time" : "10:00 – 2:00",
+        "Contact_number"  : "088 623 9575, 063 676 7335"
+    },
+    {   
+        "rest_id": "5",
+        "Name" : "ไก่ทอดไฮโซ",
+        "Location" : "499 ซอยฉลองกรุง 1",
+        "Type_of_food" : "Street food, Fast food",
+        "Recommend_menu" : "ไก่ทอด",
+        "Opening-Closing_time" : "10:00 – 17:30",
+        "Contact_number"  : "088 918 2062"
+    },
+    {   
+        "rest_id": "6",
+        "Name" : "นมมหาลัย",
+        "Location" : "Billion Park",
+        "Type_of_food" : "ขนมหวาน",
+        "Recommend_menu" : "โกโก้นมสดปั่น, ไอติมทอด",
+        "Opening-Closing_time" : "17:00 – 23:30",
+        "Contact_number"  : "098 829 8780"
+    },
+    {   
+        "rest_id": "7",
+        "Name" : "Dimple coffee",
+        "Location" : "ซอยRNP",
+        "Type_of_food" : "Coffee shop",
+        "Recommend_menu" : "นมสดคาราเมล, ปังปิ้ง",
+        "Opening-Closing_time" : "10:00 – 19:00",
+        "Contact_number"  : "090 699 4636"
+    },
+    {   
+        "rest_id": "8",
+        "Name" : "ไข่หวานบ้านซูชิ",
+        "Location" : "College Town",
+        "Type_of_food" : "อาหารญี่ปุ่น",
+        "Recommend_menu" : "ซูชิ, แซลม่อน",
+        "Opening-Closing_time" : "12:00 – 22:00",
+        "Contact_number"  : "083 788 4380"
+    },
+    {   
+        "rest_id": "9",
+        "Name" : "Long-Kin",
+        "Location" : "ซอยเกกี 4",
+        "Type_of_food" : "อาหารไทย",
+        "Recommend_menu" : "กะเพราไข่ข้นชีสลาวา",
+        "Opening-Closing_time" : "12:00 - 21:00",
+        "Contact_number"  : "085 727 7702"
+    },
+    {   
+        "rest_id": "10",
+        "Name" : "หอมมนต์",
+        "Location" : "ซอยเกกี 4",
+        "Type_of_food" : "ก๋วยเตี๋ยว",
+        "Recommend_menu" : "ก๋วยเตี๋ยวเรือ",
+        "Opening-Closing_time" : "09:30 - 22:00",
+        "Contact_number"  : "090 969 0502"
+    }
+]
