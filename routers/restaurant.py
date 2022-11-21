@@ -3,6 +3,7 @@ from rjson import *
 import pprint
 from fastapi.responses import HTMLResponse, RedirectResponse
 from fastapi.templating import Jinja2Templates
+import json
 
 templates = Jinja2Templates(directory = "templates")
 
@@ -31,7 +32,6 @@ def get_res(request: Request):
     return templates.TemplateResponse("index.html", context)
 
 #search restaurant location
-@router.get("/{rest_location}")
 def get_rest_location(rest_location : str):
     print()
     print("console rest_location is " + rest_location)
@@ -42,9 +42,21 @@ def get_rest_location(rest_location : str):
         if i.get("Location") == rest_location:
             data.append(rest_db[count])
     pprint.pprint(data)
-    return {"response": data}
-
+    return data
 @router.post("/", response_class = HTMLResponse)
 def post_form(request: Request, loc: str = Form(...)):
-    print(loc)
-    return templates.TemplateResponse("test.html", {'request': request})
+    # print(loc)
+    # print(get_rest_location(loc)[0])
+    cnt = 0
+    context = {}
+    for i in get_rest_location(loc):
+        context["rest_id" + str(cnt)] = i["rest_id"]
+        context["Name" + str(cnt)] = i["Name"]
+        context["Location" + str(cnt)] = i["Location"]
+        context["Type_of_food" + str(cnt)] = i["Type_of_food"]
+        context["Recommend_menu" + str(cnt)] = i["Recommend_menu"]
+        context["O_C_time" + str(cnt)] = i["Opening-Closing_time"]
+        context["Contact_number" + str(cnt)] = i["Contact_number"]
+        cnt = cnt + 1
+    context ['request'] = request
+    return templates.TemplateResponse("search.html", context)
